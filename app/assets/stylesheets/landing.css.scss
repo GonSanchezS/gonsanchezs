@@ -1,0 +1,35 @@
+@import 'master';
+
+.title {
+  font-size: 70px;
+  font-family: $primary-font;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  color: $secondary-color;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+  color: $primary-color;
+  font-family: $primary-font;
+}
+
+.feed {
+  @include column-structure;
+}
+
+.intro-link {
+
+  color: $primary-color;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $secondary-color;
+  }
+
+}

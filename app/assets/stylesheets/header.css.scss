@@ -1,0 +1,13 @@
+@import "master";
+
+.top-nav.navbar {
+  background-color: white;
+  border: none;
+  @include column-structure;
+  padding-left: 0;
+}
+
+.top-nav.navbar li {
+  font-family: $primary-font;
+  color: $tertiary-color;
+}

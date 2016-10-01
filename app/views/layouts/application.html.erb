@@ -3,12 +3,59 @@
 <head>
   <title>@gonsanchezs – Marketer, maker.</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:400,700" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto+Slab:400,700|Roboto:400,700" rel="stylesheet">
+  <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<div class="wrapper">
+
+
+  <nav class="navbar top-nav navbar-default">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand glyphicon glyphicon-ice-lolly-tasted" href="#"></a>
+      </div>
+
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a class="socicon-twitter" src="#"></a></li>
+          <li><a class="socicon-github" src="#"></a></li>
+        </ul>
+      </div>
+    </div>  
+
+  </nav> 
+
+
 <%= yield %>
+
+  <div class="push"></div>
+</div>
+
+
+<div class="footer">
+    <p class="footer-text pull-left">Made with <i class="em em-rocket"></i> in Reyjkavik</p>
+</div>
+
 
 </body>
 </html>
+
+<!--<script>$('body').starfield({ starDensity: 1.0, mouseScale: 1.0 });</script>-->

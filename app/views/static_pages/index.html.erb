@@ -1,3 +1,14 @@
-<h1>Hola, che. I’m a marketer.</h1>
-<p>Argentinean. Currently Director of Marketing @ EVELO. Brandery mentor & alumn.</p>
-<p>I enjoy travelling, great coffee and beer, and writing about startups and happinesss. I occasionally wear a mustache.</p>
+<div class="feed">
+  <h1 class="title">Hola, che. I’m a <span class="skills">marketer</span>.</h1>
+  <p>Argentinean. Currently Director of Marketing @ EVELO. Brandery mentor & alumn. I enjoy travelling, great coffee and beer, and writing about startups and happinesss at <a class="intro-link" href="#">The Moustache</a>.</p>
+</div>
+
+<script>
+var texts = ["marketer", "maker", "designer", "traveler"];
+var count = 0;
+function changeText() {
+    $(".skills").text(texts[count]);
+    count < 4 ? count++ : count = 0;
+}
+setInterval(changeText, 1500);
+</script>
