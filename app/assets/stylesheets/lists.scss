@@ -1,0 +1,30 @@
+@import 'master';
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.list-title {
+  font-family: $primary-font;
+  color: $secondary-color;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.list-intro {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.back-link {
+  color: $tertiary-color;
+  font-size: 12px;
+}

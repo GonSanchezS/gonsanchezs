@@ -1,5 +1,9 @@
 @import 'master';
 
+.feed {
+  @include column-structure;
+}
+
 .title {
   font-size: 70px;
   font-family: $primary-font;
@@ -9,7 +13,30 @@
 }
 
 .skills {
+  background: $secondary-color;
+  color: white;
+}
+
+.bio-link {
+  color: $primary-color;
+  border-bottom: 2px dotted $secondary-color;
+
+  &:hover {
+    border-bottom: 2px solid $secondary-color;
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+.bio-cta {
   color: $secondary-color;
+  font-weight: 700;
+
+  &:hover {
+    border-bottom: 2px solid $secondary-color;
+    color: $primary-color;
+    text-decoration: none;
+  }
 }
 
 p {
@@ -19,17 +46,6 @@ p {
   font-family: $primary-font;
 }
 
-.feed {
-  @include column-structure;
-}
 
-.intro-link {
 
-  color: $primary-color;
 
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: $secondary-color;
-  }
-
-}
