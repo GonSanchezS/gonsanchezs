@@ -26,3 +26,21 @@ height: 100%;
   color: $tertiary-color;
 }
 
+.footer-links {
+  font-size: 16px;
+}
+
+.footer-links a {
+  color: $tertiary-color;
+  padding-right: 20px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+#twitter:hover {
+  color: #1a8bf0;
+}
+
+
