@@ -27,4 +27,14 @@ li {
 .back-link {
   color: $tertiary-color;
   font-size: 12px;
+
+  &:hover {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}
+
+.highlight {
+  background-color: $tertiary-color;
+  color: white;
 }

@@ -8,6 +8,7 @@ $tertiary-font: 'Roboto', sans-serif;
 $primary-color: #161616;
 $secondary-color: #50E3C2;
 $tertiary-color: #9B9B9B;
+$secondary-color-light: #AFF8E8;
 
 @mixin column-structure {
   @include make-xs-column(10);
