@@ -1,5 +1,5 @@
 <div class="feed">
-  <h1 class="title">Hola, che. I’m a <span class="skills">marketer</span>.</h1>
+  <h1 class="title">Hola, che.<br /> I’m a <span class="skills">marketer</span>.</h1>
     <br />
   <p>Argentinean. Currently Director of Marketing at <a href="http://evelo.com" class="bio-link">EVELO</a>. Built 2 startups with varying degrees of success that ultimately failed. <a href="http://brandery.org" class="bio-link">Brandery</a> mentor & alumn.</p>
   <p>I enjoy coffee <i class="em em-coffee"></i>, football <i class="em em-soccer"></i>, beer <i class="em em-beer"></i>, <%= link_to "flying", cities_path, :class => 'bio-link' %>  <i class="em em-airplane"></i> and <%= link_to "books", books_path, :class => 'bio-link' %> <i class="em em-books"></i>.</p>
@@ -8,7 +8,7 @@
 </div>
 
 <script>
-var texts = ["marketer", "developer", "designer", "traveler"];
+var texts = ["marketer", "developer", "designer"];
 var count = 0;
 function changeText() {
     $(".skills").text(texts[count]);
